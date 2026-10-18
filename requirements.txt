@@ -1,0 +1,36 @@
+# OBSERVER — Dependencies
+# Install with: pip install -r requirements.txt
+
+# GUI
+PyQt6>=6.7.0
+PyQt6-Qt6>=6.7.0
+
+# Database
+SQLAlchemy>=2.0.0
+
+# Security / Auth
+bcrypt>=4.2.0
+PyJWT>=2.9.0
+cryptography>=43.0.0
+
+# Email / SMTP
+secure-smtplib>=0.1.1
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# PDF Reports
+reportlab>=4.2.0
+
+# HTTP client (scanner)
+requests>=2.32.0
+urllib3>=2.2.0
+beautifulsoup4>=4.12.0
+lxml>=5.3.0
+
+# Utilities
+pytz>=2024.1
+Pillow>=11.0.0
+
+# Packaging (dev)
+pyinstaller>=6.11.0
